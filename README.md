@@ -1,14 +1,14 @@
 # Charity Betting Platform
 
 ## Idea
-- platform for people to register predictions and make bets
+platform for people to register predictions and make bets
 
 ### 1 Minimal concept to start with:
 - people who know each other register bets publicly
 - platform stores names, amount, odds, content, expected due date and sends periodic reminders
 - once bet is resolved losing party can pay via the app (to think: how do they get a donation receipt?)
 - platform stores who won/lost and whether the debt was paid
-- people can browse past bets
+- people can browse past and present bets if they are not private
 
 To think: who needs to have the app installed? who needs to have an account? Can we avoid forcing people to sign up?
 
@@ -19,10 +19,21 @@ To think: who needs to have the app installed? who needs to have an account? Can
 
 Proposed App Structure
 
-    My bets
+    My Dashboard
+
+    Bets
         - Bet 1
         - Bet 2
         - ...
+
+    Any settled bets not yet paid?
+
+    My stats
+        - number of bets won
+        - number of bets lost
+        - money donated
+        - money earned for charity
+
 
         Bet
             - Topic
@@ -33,11 +44,6 @@ Proposed App Structure
             - Due date
             - Reminders
 
-    My stats
-        - number of bets won
-        - number of bets lost
-        - money donated
-        - money earned for charity
 
     Leaderboard
         - most donated
@@ -51,6 +57,10 @@ Proposed App Structure
         - Expected due date
         - periodicity of reminders
         - make content of bet private
+        - also make name of bettors private --> bet doesn't show up at all publicly
+
+    Current Bets / Past Bets
+        - bet 1
 
 ### Flutter info
 
