@@ -16,6 +16,8 @@ To think: who needs to have the app installed? who needs to have an account? Can
 - people can make a prediction and propose odds even without a second person to bet with
 - others can then challenge the prediction and they make a bet
 
+### 3 Maybe think about involving up-front payments or concepts where people can gain money
+
 
 Proposed App Structure
 
