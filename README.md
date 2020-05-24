@@ -20,11 +20,13 @@ To think: who needs to have the app installed? who needs to have an account? Can
 Proposed App Structure
 
     My bets
+
         - Bet 1
         - Bet 2
         - ...
 
         Bet
+
             - Topic
             - Betting with
             - Settled? --> Paid?
@@ -34,12 +36,14 @@ Proposed App Structure
             - Reminders
 
     My stats
+
         - number of bets won
         - number of bets lost
         - money donated
         - money earned for charity
 
     Leaderboard
+
         - most donated
         - most bets one
         - most money earned for charity
