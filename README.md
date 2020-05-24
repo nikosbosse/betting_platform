@@ -20,20 +20,16 @@ To think: who needs to have the app installed? who needs to have an account? Can
 Proposed App Structure
 
     My Dashboard
-
-    Bets
-        - Bet 1
-        - Bet 2
-        - ...
-
-    Any settled bets not yet paid?
-
-    My stats
-        - number of bets won
-        - number of bets lost
-        - money donated
-        - money earned for charity
-
+        - Bets
+            - Bet 1
+            - Bet 2
+            - ...
+        - Any settled bets not yet paid?
+        - My stats
+            - number of bets won
+            - number of bets lost
+            - money donated
+            - money earned for charity
 
         Bet
             - Topic
@@ -44,8 +40,7 @@ Proposed App Structure
             - Due date
             - Reminders
 
-
-    Leaderboard
+    Global: Leaderboard
         - most donated
         - most bets one
         - most money earned for charity
@@ -59,7 +54,7 @@ Proposed App Structure
         - make content of bet private
         - also make name of bettors private --> bet doesn't show up at all publicly
 
-    Current Bets / Past Bets
+    Global: Current Bets / Past Bets
         - bet 1
 
 ### Flutter info
